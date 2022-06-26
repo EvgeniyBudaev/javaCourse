@@ -7,6 +7,8 @@ import java.util.TreeMap;
 
 public class Main {
     public static void main(String[] args) {
+        /* Элементами TreeMap являются пары ключ/значение.
+        В TreeMap элементы хранятся в отсортированном по возрастанию порядке. */
         TreeMap<Double, Student> treeMap = new TreeMap<>();
         Student st1 = new Student("Oleg", 1);
         Student st2 = new Student("Nina", 3);
