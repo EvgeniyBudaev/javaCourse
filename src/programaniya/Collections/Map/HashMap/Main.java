@@ -5,6 +5,9 @@ import java.util.Map;
 
 public class Main {
     public static void main(String[] args) {
+        /* Элементами HashMap являются пары ключ/значение.
+        * HashMap не запоминает порядок добавления элементов.
+        * Его методы работают очень быстро. */
         Map<Integer, String> map1 = new HashMap<>();
         map1.put(100, "Zaur Tregulov");
         map1.put(300, "Ivan Ivanov");
