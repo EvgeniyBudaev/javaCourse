@@ -3,6 +3,7 @@ package programaniya.Streams.filter;
 import java.util.ArrayList;
 import java.util.List;
 import java.util.stream.Collectors;
+import java.util.stream.Stream;
 
 public class Main {
     /* Методы Stream не меняютсаму коллекцию или массив, от которой был создан stream */
@@ -23,5 +24,8 @@ public class Main {
         students = students.stream().filter(element -> element.getAge() > 22 &&
                 element.getAvgGrade() < 7.2).collect(Collectors.toList());
         System.out.println(students);
+
+        Stream<Student> myStream = Stream.of(st1, st2,st3, st4, st5);
+        myStream.filter(el -> el.getAvgGrade() < 7.2).collect(Collectors.toList());
     }
 }
