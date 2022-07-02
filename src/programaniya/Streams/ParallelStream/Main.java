@@ -21,6 +21,6 @@ public class Main {
                 .reduce((acc, el) -> acc + el).get();
         System.out.println("Sum result2: " + sumResult2); // 1sec, 111ms
 
-        
+
     }
 }
