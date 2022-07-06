@@ -77,10 +77,10 @@ public class Praktikum {
             // Сравните уровни закиси азота
             if (userCar.nitroLevel > opponentCar.nitroLevel) {
                 System.out.println("Вы проиграли, но благодаря закиси азота сохранили очки.");
-                return (int) userCar.maxSpeed;
+                return 0;
             } else {
                 System.out.println("Вы проиграли(");
-                return (int) opponentCar.maxSpeed;
+                return -100;
             }
         }
     }
