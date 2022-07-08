@@ -86,7 +86,7 @@ public class ExpensesManager {
                 maxCategoryName = expenses.getKey();
             }
         }
-        
+
         return maxCategoryName;
     }
 }
