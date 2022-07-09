@@ -3,33 +3,28 @@ package javaRushUniversity.javaSyntax.level04.lesson03;
 import java.util.Scanner;
 
 /*
-Три числа
+Координатные четверти
 */
 
-/* Ввести с клавиатуры три целых числа. Определить, есть ли среди них хотя бы одна пара равных между собой чисел.
-Если такая пара существует, вывести на экран числа через пробел. Если все три числа равны между собой, то вывести все
-три. */
+/* Ввести с клавиатуры два целых числа, которые будут координатами точки (первое считанное число - это координата "x",
+ а второе - координата "y"). Известно, что точка не лежит на координатных осях OX и OY.
+ Вывести на экран номер координатной четверти, в которой находится данная точка. */
 
 public class Solution02 {
     public static void main(String[] args) {
         //напишите тут ваш код
-        Scanner scanner =new Scanner(System.in);
-        int a = scanner.nextInt();
-        int b = scanner.nextInt();
-        int c = scanner.nextInt();
-        if (a==b)
-        {
-            if (a==c)
-                System.out.print(a + " " + b + " " + c);
-            else
-                System.out.print(a + " " + b);
-        }
-        else
-        {
-            if (a==c)
-                System.out.print(a + " " + c);
-            if (b==c)
-                System.out.print(b + " " + c);
+        Scanner scanner = new Scanner(System.in);
+        int x = scanner.nextInt();
+        int y = scanner.nextInt();
+
+        if (x>0 && y>0) {
+            System.out.println(1);
+        } else if (x<0 && y>0) {
+            System.out.println(2);
+        } else if (x<0 && y<0) {
+            System.out.println(3);
+        } else {
+            System.out.println(4);
         }
     }
 }

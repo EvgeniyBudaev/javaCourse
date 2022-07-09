@@ -3,33 +3,23 @@ package javaRushUniversity.javaSyntax.level04.lesson03;
 import java.util.Scanner;
 
 /*
-Измерим температуру тела
+Работать или не работать - вот в чем вопрос
 */
 
-/* Измерим температуру тела
+/* Напишем программу, которая будет считывать с клавиатуры возраст. Если возраст от 20 до 60 (включительно), то выводить
+ ничего не нужно, иначе - вывести фразу "можно не работать". Сделать это можно (и нужно!) с помощью только одного
+ оператора if без else.
 
-Программа считывает с клавиатуры значение температуры тела и выдает сообщение о том, что температура тела высокая,
- низкая или нормальная, в зависимости от условий.
-В классе объявлены две булевые переменные isHigh (высокая температура) и isLow (низкая), в которые нужно вынести
-соответствующие условия и вместо выражений сравнения использовать эти переменные.
+Подсказка: используй логический оператор "||" (или).
  */
 
 public class Solution01 {
-    private static boolean isHigh;
-    private static boolean isLow;
-
     public static void main(String[] args) {
-        Scanner scanner = new Scanner(System.in);
-        double bodyTemperature = scanner.nextDouble();
         //напишите тут ваш код
-        isHigh = bodyTemperature > 37;
-        isLow = bodyTemperature < 36;
-        if (isHigh) {
-            System.out.println("температура тела высокая");
-        } else if (isLow ){
-            System.out.println("температура тела низкая");
-        } else {
-            System.out.println("температура тела нормальная");
+        Scanner scanner = new Scanner(System.in);
+        int age = scanner.nextInt();
+        if (age < 20 || age > 60) {
+            System.out.println("можно не работать");
         }
     }
 }
