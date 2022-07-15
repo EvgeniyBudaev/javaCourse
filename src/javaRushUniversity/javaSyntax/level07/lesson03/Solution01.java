@@ -26,7 +26,7 @@ public class Solution01 {
             String s = strings[i];
             if (strings[i] != null) {
                 for (int j = 0; j < strings.length; j++) {
-                    if (strings[i].equals(strings[j]) && i != j) {
+                    if (s.equals(strings[j]) && i != j) {
                         strings[j] = null;
                         strings[i] = null;
                     }
