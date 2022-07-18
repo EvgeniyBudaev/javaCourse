@@ -1,4 +1,4 @@
-package javaRushUniversity.javaSyntax.level08.lesson02;
+package javaRushUniversity.javaSyntax.level08.lesson02; // task06.task0632;
 
 import java.io.IOException;
 import java.util.Arrays;

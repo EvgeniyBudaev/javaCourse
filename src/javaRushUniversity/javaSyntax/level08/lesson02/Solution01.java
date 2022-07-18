@@ -1,4 +1,4 @@
-package javaRushUniversity.javaSyntax.level08.lesson02;
+package javaRushUniversity.javaSyntax.level08.lesson02; // task06.task0625;
 
 /*
 Знакомство с двумерным массивом
