@@ -1,4 +1,4 @@
-package javaRushUniversity.javaSyntax.level08.lesson00;
+package javaRushUniversity.javaSyntax.level08.lesson00; // task05.task0509;
 
 /*
 Таблица умножения

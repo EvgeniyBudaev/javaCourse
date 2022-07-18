@@ -1,4 +1,4 @@
-package javaRushUniversity.javaSyntax.level06.lesson00;
+package javaRushUniversity.javaSyntax.level06.lesson00; // task04.task0405;
 
 /*
 Незаполненный прямоугольник

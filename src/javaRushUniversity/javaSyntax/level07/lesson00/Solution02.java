@@ -1,4 +1,4 @@
-package javaRushUniversity.javaSyntax.level07.lesson00;
+package javaRushUniversity.javaSyntax.level07.lesson00; // task05.task0502;
 
 /*
 Четные и нечетные ячейки массива

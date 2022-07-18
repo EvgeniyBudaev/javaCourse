@@ -1,4 +1,4 @@
-package javaRushUniversity.javaSyntax.level04.lesson06;
+package javaRushUniversity.javaSyntax.level04.lesson06; // task03.task0313;
 
 /* В методе main напиши код попарного сравнения по ссылке строк string1, string2 и string3 с выводом соответствующего
  сообщения после каждого сравнения: "ссылки на строки одинаковые" или "ссылки на строки разные".

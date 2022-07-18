@@ -1,4 +1,4 @@
-package javaRushUniversity.javaSyntax.level02.lesson03;
+package javaRushUniversity.javaSyntax.level02.lesson03; // task02.task0206;
 
 /* В методе main объяви переменные word, phrase, line и text типа String.
 Присвой им разные значения. Используй одну команду для создания и инициализации переменных.

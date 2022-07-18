@@ -1,4 +1,4 @@
-package javaRushUniversity.javaSyntax.level03.lesson08;
+package javaRushUniversity.javaSyntax.level03.lesson08; // task05.task0520;
 
 /*
 Переобуваемся на лету

@@ -1,4 +1,4 @@
-package javaRushUniversity.javaSyntax.level02.lesson06;
+package javaRushUniversity.javaSyntax.level02.lesson06; // task02.task0202;
 
 /*
 Полнометражная картина

@@ -1,4 +1,4 @@
-package javaRushUniversity.javaSyntax.level02.lesson00;
+package javaRushUniversity.javaSyntax.level02.lesson00; // task01.task0105;
 /*
 Объявляем переменные
 */

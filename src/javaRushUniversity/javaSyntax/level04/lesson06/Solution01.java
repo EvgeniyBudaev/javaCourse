@@ -1,4 +1,4 @@
-package javaRushUniversity.javaSyntax.level04.lesson06;
+package javaRushUniversity.javaSyntax.level04.lesson06; // task03.task0312;
 
 import java.util.Scanner;
 

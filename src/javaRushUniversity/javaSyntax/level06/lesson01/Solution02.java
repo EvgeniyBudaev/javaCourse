@@ -1,4 +1,4 @@
-package javaRushUniversity.javaSyntax.level06.lesson01;
+package javaRushUniversity.javaSyntax.level06.lesson01; // task04.task0407;
 
 /*
 Сумма чисел, не кратных 3

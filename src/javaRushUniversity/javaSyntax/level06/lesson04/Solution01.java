@@ -1,4 +1,4 @@
-package javaRushUniversity.javaSyntax.level06.lesson04;
+package javaRushUniversity.javaSyntax.level06.lesson04; // task04.task0413;
 
 /*
 Рисуем треугольник

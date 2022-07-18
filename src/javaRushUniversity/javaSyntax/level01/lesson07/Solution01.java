@@ -1,4 +1,4 @@
-package javaRushUniversity.javaSyntax.level01.lesson07;
+package javaRushUniversity.javaSyntax.level01.lesson07; // task01.task0142;
 
 /*Напиши программу, которая выводит на экран надпись: "Амиго очень умный". */
 public class Solution01 {

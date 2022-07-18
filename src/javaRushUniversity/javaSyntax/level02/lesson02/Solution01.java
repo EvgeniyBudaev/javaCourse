@@ -1,4 +1,4 @@
-package javaRushUniversity.javaSyntax.level02.lesson02;
+package javaRushUniversity.javaSyntax.level02.lesson02; // task01.task0115;
 
 /*
 Ну это… С новым годом!

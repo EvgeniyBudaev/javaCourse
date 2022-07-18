@@ -1,4 +1,4 @@
-package javaRushUniversity.javaSyntax.level07.lesson01;
+package javaRushUniversity.javaSyntax.level07.lesson01; // task05.task0504;
 
 /*
 Объединяем массивы

@@ -1,4 +1,4 @@
-package javaRushUniversity.javaSyntax.level02.lesson01;
+package javaRushUniversity.javaSyntax.level02.lesson01; // task01.task0109;
 /*
 «Я по объявлению…»
 */

@@ -1,4 +1,4 @@
-package javaRushUniversity.javaSyntax.level06.lesson03;
+package javaRushUniversity.javaSyntax.level06.lesson03; // task04.task0411;
 
 /*
 Четные числа

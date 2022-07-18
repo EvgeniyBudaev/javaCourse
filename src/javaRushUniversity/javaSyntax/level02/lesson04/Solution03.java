@@ -1,4 +1,4 @@
-package javaRushUniversity.javaSyntax.level02.lesson04;
+package javaRushUniversity.javaSyntax.level02.lesson04; // task02.task0212;
 
 /*
 Попрошу регистр на меня не повышать!
