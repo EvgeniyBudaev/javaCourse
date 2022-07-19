@@ -331,6 +331,3 @@ static
 *.static
 **.static
 */.static/*
-
-javaCourse.iml
-.javaCourse.iml
