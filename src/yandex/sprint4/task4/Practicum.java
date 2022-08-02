@@ -29,9 +29,6 @@ public class Practicum {
                    4. вывести сообщение "Количество бонусных баллов: <баллы>."
         */
         ChatCommand chatCommand = ChatCommand.valueOf(commandValue.toUpperCase());
-        System.out.println("[chatCommand] " + chatCommand);
-
-        printMenu();
 
         switch (chatCommand) {
             case MAP:
@@ -40,10 +37,10 @@ public class Practicum {
             case RECYCLABILITY:
                 System.out.println("Введите код переработки:");
                 int code = scanner.nextInt();
-                Practicum.isRecycled(code);
+                isRecycled(code);
                 break;
             case BONUS:
-                System.out.println("\"Введите количество вторсырья, кг:\"");
+                System.out.println("Введите количество вторсырья, кг:");
                 int value = scanner.nextInt();
                 int bonus;
                 if (value < 10) {
