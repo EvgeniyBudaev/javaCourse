@@ -1,4 +1,4 @@
-package yandex.sprint5.task2;
+package yandex.sprint5.Algorithms.task2;
 
 import java.util.Random;
 import java.util.Scanner;

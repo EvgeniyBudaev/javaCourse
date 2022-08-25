@@ -1,4 +1,4 @@
-package yandex.sprint5.task3;
+package yandex.sprint5.Algorithms.task3;
 
 public class Practicum {
     public static void main(String[] args) {
