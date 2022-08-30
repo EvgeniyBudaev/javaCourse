@@ -1,29 +1,30 @@
-package javaRushUniversity.javaSyntax.level24.lesson01.task3; // com.javarush.task.pro.task15.task1508;
+package javaRushUniversity.javaSyntax.level24.lesson01.task3; // com.javarush.task.pro.task15.task1509;
 
 import java.io.BufferedReader;
 import java.io.IOException;
 import java.io.InputStream;
 import java.io.InputStreamReader;
+import java.util.HashSet;
+import java.util.Set;
 import java.util.Scanner;
 
 /*
-Читаем из консоли
+Еще раз читаем из консоли
 */
 
 public class Solution {
     public static void main(String[] args) {
         try (InputStream stream = System.in;
-             InputStreamReader reader = new InputStreamReader(stream);
-             BufferedReader buff = new BufferedReader(reader)) {
-            String line = buff.readLine();
+             Scanner console = new Scanner(stream)) {
+            String line = console.nextLine();
             char[] chars = line.toCharArray();
-            for (int i = 0; i < chars.length; i++) {
-                if (i % 2 == 1) {
-                    System.out.print(String.valueOf(chars[i]).toUpperCase());
-                } else {
-                    System.out.print(String.valueOf(chars[i]).toLowerCase());
+            Set<Character> characters = new HashSet<>();
+            for (char aChar : chars) {
+                if (Character.isAlphabetic(aChar)) {
+                    characters.add(Character.toLowerCase(aChar));
                 }
             }
+            System.out.println(characters);
         } catch (IOException e) {
             System.out.println("Something went wrong : " + e);
         }
