@@ -5,14 +5,13 @@ import java.util.Scanner;
 
 public class FinancialCalculatorException {
     final static Scanner scanner = new Scanner(System.in);
-    private static int n = 0;
-
     public static void main(String[] args) {
+
+        // перехват исключения LimitException
         try {
             calculate();
-            // перехват исключения LimitException
-        } catch (LimitException exception) {
-            throw new LimitException("Превышен лимит ошибок ввода:", n);
+        } catch (LimitException exp) {
+            System.out.println("Превышен лимит ошибок ввода: " + exp.attempts);
         }
     }
 
@@ -22,7 +21,6 @@ public class FinancialCalculatorException {
     }
 
     public static int getIntLimited(String greeting, int attempts) {
-        n = attempts;
         for (int counter = 0; counter < attempts; counter++) {
             try {
                 System.out.println(greeting + " => ");
@@ -30,44 +28,42 @@ public class FinancialCalculatorException {
                     final int value = scanner.nextInt();
                     // проверка на отрицательное значение
                     // сгенерируйте исключение "Введено отрицательное значение"
-                    if (value < 0) {
-                        throw new InputException("Введено отрицательное значение");
+                    if (value < 0)  {
+                        throw new InputException ("Введено отрицательное значение");
                     }
                     return value;
                 } catch (InputMismatchException exception) {
                     // сгенерируйте исключение "Введено не число"
-                    throw new InputException("Введено не число");
+                    throw new InputException ("Введено не число");
                 }
             } catch (InputException exception) {
                 // сгенерируйте вывод формата "Ошибка ввода: " + информация об исключении
-                System.out.println("Ошибка ввода: " + exception.getDetailMessage());
+                System.out.println("Ошибка ввода: " + exception.getMessage());
             }
         }
         // сгенерируйте исключение LimitException с сообщением "Превышен лимит ошибок ввода"
-        throw new LimitException("Превышен лимит ошибок ввода");
+        throw new LimitException("Превышен лимит ошибок ввода", attempts);
     }
 
     public static double getDoubleLimited(String greeting, int attempts) {
-        n = attempts;
         for (int counter = 0; counter < attempts; counter++) {
             try {
                 System.out.println(greeting + " => ");
                 // добавьте недостающий код
                 try {
                     final double value = scanner.nextDouble();
-                    if (value < 0) {
-                        throw new InputException("Введено отрицательное значение");
+                    if (value < 0)  {
+                        throw new InputException ("Введено отрицательное значение");
                     }
                     return value;
                 } catch (InputMismatchException exception) {
-                    throw new InputException("Введено не число");
+                    throw new InputException ("Введено не число");
                 }
             } catch (InputException exception) {
-                System.out.println(exception.getDetailMessage());
+                System.out.println("Ошибка ввода: " + exception.getMessage());
             }
         }
-        // сгенерируйте исключение LimitException
-        throw new LimitException("Превышен лимит ошибок ввода");
+        throw new LimitException("Превышен лимит ошибок ввода", attempts);
     }
 
     public static void calculate() {
