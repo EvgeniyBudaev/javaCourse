@@ -2,5 +2,6 @@
 <project version="4">
   <component name="VcsDirectoryMappings">
     <mapping directory="$PROJECT_DIR$" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/src/yandex/sprint7/UnitTests/project/m1-t23-junit" vcs="Git" />
   </component>
 </project>
